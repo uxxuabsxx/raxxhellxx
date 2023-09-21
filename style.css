@@ -1,0 +1,358 @@
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 251, 210);
+}
+
+.header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header li {
+    display: flex;
+    align-items: center;
+}
+
+.header li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .logo  {
+    flex-grow: 1;
+    color: rgb(95, 157, 214);
+    font-family: "Shrikhand";
+    font-size: 1.2rem;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 226, 146);
+  padding: 0 10%;
+}
+
+.header li {
+  display: inline;
+  color:rgb(255, 224, 157);
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(252, 240, 201);
+  height: 4rem;
+}
+
+
+
+/* Banner */
+.banner {
+    background: url("./img/lenn1.jpg");
+    height: 350px;
+    background: size 200px;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.banner h1 {
+    width: 300px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+
+.bannerh2 {
+    background-color: rgb(157, 233, 122);
+    width: 200px;
+    text-align: center;
+    color: aliceblue;
+    margin: 0px;
+    margin-left: 25px;
+}
+
+/* MV */
+.MV {
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(224, 177, 203);
+  font-family: "Shrikhand";
+  letter-spacing: 0.1rem;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  background-color: rgb(6, 4, 11);
+  height: 450px;
+}
+ .video-info {
+  margin-top: 5px;
+  text-align: left;
+ }
+
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    background-color: rgb(255, 209, 149);
+    height: 450px;
+  }
+  
+  .video-info {
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 80px;
+    width: 300px;
+  }
+  
+  .video-info h2 {
+    color: rgb(159, 134, 192);
+    width: 300px;
+  }
+  
+  .video-info p {
+    color: white;
+    width: 300px;
+  }
+  
+  .video-youtube {
+    margin: 20px;
+    position: relative;
+    width: 660px;
+  }
+  
+  .video-youtube iframe {
+    width: absolute;
+    top: 1550;
+    left: 150;
+  }
+  
+  .video-thumbnails {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+    width: 250px;
+  }
+  
+  .video-thumbnails img {
+    width: 178px;
+    height: 100px;
+    margin: 22px;
+    border: 3px solid rgb(224, 177, 203);
+    cursor: pointer;
+  }
+  
+  .video-thumbnails img:hover {
+    border: 3px solid rgb(159, 134, 192);
+    filter: brightness(1.5);
+  }
+
+/* supporting */
+.supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center; /* Added for center alignment of the entire section */
+  }
+  
+  .supporting .col {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    /* Add the following properties to center-align the columns */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .supporting img {
+    height: 32px;
+  }
+  
+  .supporting h2 {
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  
+  .supporting p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .supporting a {
+    background-color: rgb(134, 134, 134);
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #cfc972; 
+  }
+  
+
+
+/* About */
+.about {
+  text-align: center;
+  margin-top: 100px;
+  color: lightsalmon;
+  font-family: cursive;
+  letter-spacing: 0.15rem;
+}
+
+.aboutCards {
+ text-align: center;
+}
+
+.aboutCards .col {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.mempic {
+  width: 200px;
+ }
+  
+
+.aboutCards h3 {
+  color:rgb(134, 134, 134);
+  text-transform: uppercase;
+  font-style:italic;
+}
+
+.aboutCards p {
+  font-size: 16px;
+  color: #cfc972
+}
+
+.aboutCards a {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.03px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  /*border 2pxx solid rgb(224, 117, 203);*/
+  border-radius: 8px;
+}
+
+.aboutCards a:hover {
+  /*background-clolor: rgb(224, 117, 203);*/
+}
+
+/* Contart */
+.about {
+  text-align: center;
+  margin-top: 100px;
+  color: lightsalmon;
+  font-family: cursive;
+  letter-spacing: 0.15rem;
+}
+
+.contact-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: rgb(28, 17, 35);
+}
+
+.img-container {
+
+}
+
+.img-container img {
+ width: 300px;
+}
+
+/* Form */
+.form-container {
+  flex: 1;
+  width: 300px ;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+
+}
+form h2{
+  colour:rgb(224,177,283);
+  font-style:italic;
+}
+
+/* Text Input Fields */
+input[type="text"],
+input[type="email"],
+text area {
+ width: 100%;
+ padding: 3px;
+ margin-top: 5px;
+ border: 2px solid rgb(35, 25, 66);
+ border-radius: 8px;
+ background-color: rgb(224, 200, 203);
+ color: rgb(35, 25, 66);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+outline: none; /*Remove the default bluder border */
+border-color: rgb(190, 149, 196);
+}
+
+/* Form */
+.form-container {
+  flex: 1;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  color: rgb(159, 134, 192);
+ }
+ 
+  
+
+/* Map */
+.map-container {
+  filter: hue-rotate(90deg);
+}
+
+.map-container iframe {
+
+ }
+
+ /* Footer */
+.footer-left {
+  color: rgb(159, 134, 192);
+  font-size: 14px;
+ }
+ 
